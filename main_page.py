@@ -1,14 +1,14 @@
- re, requests, json, random, base64, time, os, datetime, sys, socket
-from urllib.parse  quote
-from bs4  BeautifulSoup
-from sys  platform
-from time  sleep,strftime
-from pystyle  Write,Colors
-from datetime  datetime
-from pystyle  Colors, Colorate
-from datetime  date
+import re, requests, json, random, base64, time, os, datetime, sys, socket
+from urllib.parse import quote
+from bs4 import BeautifulSoup
+from sys import platform
+from time import sleep,strftime
+from pystyle import Write,Colors
+from datetime import datetime
+from pystyle import Colors, Colorate
+from datetime import date
 time=datetime.now().strftime("%H:%M:%S")
-from pystyle  *
+from pystyle import *
 data_machine = []
 today = date.today()
 now = datetime.now()
@@ -56,23 +56,35 @@ banner()
 print(f'{red}╔═══════════╦═══════════════════════════════════════╦══════════════════╦═══════════════════╗')
 print(f'{red}║   {vang}ORDER   {red}║                {vang}MENU TOOL              {red}║      {vang}STATUS      {red}║      {vang}VERSION      {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╬═══════════════════╣')
-print(f'{red}║     {vang}1     {red}║          {lamd}TOOL GET UID FACEBOOK        {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}║     {vang}1     {red}║     {lamd}TOOL SHARE ẢO COOKIE ACC          {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╬═══════════════════╣')
-print(f'{red}║     {vang}2     {red}║           {lamd}TOOL SPAM SMS & CALL        {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}║     {vang}2     {red}║     {lamd}TOOL SHARE ẢO TOKEN PRO5          {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╬═══════════════════╣')
-print(f'{red}║     {vang}3     {red}║           {lamd}TOOL GET TOKEN PRO5         {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}║     {vang}3     {red}║     {lamd}TOOL SHARE ẢO COOKIE PRO5         {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╬═══════════════════╣')
-print(f'{red}║     {vang}4     {red}║             {lamd}TOOL ADD FRIENDS          {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}║     {vang}4     {red}║     {lamd}TOOL BUFF VIEW STORY PRO5         {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
-print(f'{red}║     {vang}5     {red}║          {lamd}TOOL GET TOKEN PROFILE       {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}║     {vang}5     {red}║     {lamd}TOOL SET ADMIN PRO5               {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
-print(f'{red}║     {vang}6     {red}║           {lamd}TOOL GET COOKIE PRO5        {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}║     {vang}6     {red}║     {lamd}TOOL REG PAGE VỊ TRÍ              {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
-print(f'{red}║     {vang}7     {red}║          {lamd}TOOL BUFF VIEW TIK TOK       {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}║     {vang}7     {red}║     {lamd}TOOL BUFF FOLLOW PRO5             {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
 print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
-print(f'{red}║     {vang}8     {red}║               {lamd}QUAY LẠI                {red}║          {luc}ADMIN: {vang}FRIVE {red}- {vang}TOOL         {red}║')
+print(f'{red}║     {vang}8     {red}║     {lamd}TOOL KICK HOẠT PAGE PRO5          {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
+print(f'{red}║     {vang}9     {red}║     {lamd}TOOL CHUYỂN PAGE VỊ TRÍ           {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
+print(f'{red}║    {vang}10     {red}║     {lamd}TOOL VIP LIKE BẰNG PRO5           {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
+print(f'{red}║    {vang}11     {red}║     {lamd}TOOL BUFF MENBER GROUP PRO5       {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
+print(f'{red}║    {vang}12     {red}║     {lamd}TOOL BUFF REACTION STORY PRO5     {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
+print(f'{red}║    {vang}13     {red}║     {lamd}TOOL REG PAGE PRO5 UP AVATAR      {red}║      {luc}ONLINE      {red}║       {lamd}[1.0]       {red}║')
+print(f'{red}╠═══════════╬═══════════════════════════════════════╬══════════════════╩═══════════════════╣')
+print(f'{red}║    {vang}14     {red}║               {lamd}QUAY LẠI                {red}║          {luc}ADMIN: {vang}FRIVE {red}- {vang}TOOL         {red}║')
 print(f'{red}╠═══════════╩═══════════════════════════════════════╩══════════════════════════════════════╣')
-print(f'{red}║                          {red}[{vang}LƯU Ý{red}] {lamd}LỰA CHỌN THÌ NHẬP SỐ NHA {red}[{lamd}1{red}-{vang}>{lamd}8{red}]                         {red}║')
+print(f'{red}║                         {red}[{vang}LƯU Ý{red}] {lamd}LỰA CHỌN THÌ NHẬP SỐ NHA {red}[{lamd}1{red}-{vang}>{lamd}14{red}]                         {red}║')
 print(f'{red}╚══════════════════════════════════════════════════════════════════════════════════════════╝')
 print(f'')
 print(f'{red}╔════[{tim}FRIVE{vang}-{lamd}TOOL{red}]')
@@ -82,20 +94,32 @@ clear()
 
 try:
     if chon == '1':
-        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/getid.py').text
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/shareao.py').text
     elif chon == '2':
-        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/spamsmscall.py').text
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/sepro5.py').text
     elif chon == '3':
-        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/gettokenpr5.py').text
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/Shareaopro5.py').text
     elif chon == '4':
-        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/addfen.py').text
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/story.py').text
     elif chon == '5':
-        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/gettoken.py').text
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/setad.py').text
     elif chon == '6':
-        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/getcookie.py').text
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/regvitri.py').text
     elif chon == '7':
-        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/zyfoy_new.py').text
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/followpr5.py').text
     elif chon == '8':
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/kichhoat.py').text
+    elif chon == '9':
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/tach_pagevt.py').text
+    elif chon == '10':
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/viplike.py').text
+    elif chon == '11':
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/buffmenber.py').text
+    elif chon == '12':
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/reactionstr.py').text
+    elif chon == '13':
+        code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/regpro5.py').text
+    elif chon == '14':
         code = requests.get('https://raw.githubusercontent.com/FRIVE-SERVER/Python/main/main.py').text
 except:
     if not network():
