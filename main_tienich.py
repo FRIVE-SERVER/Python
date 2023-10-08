@@ -1,20 +1,13 @@
 import re, requests, json, random, base64, time, os, datetime, sys, socket
-from bs4  BeautifulSoup
-from sys  platform
-from time  sleep,strftime
-from pystyle  Write,Colors
-from datetime  datetime
-from pystyle  Colors, Colorate
-from datetime  date
-time=datetime.now().strftime("%H:%M:%S")
-from pystyle  *
-data_machine = []
-today = date.today()
-now = datetime.now()
-thu = now.strftime("%A")
-ngay_hom_nay = now.strftime("%d")
-thang_nay = now.strftime("%m")
-nam_ = now.strftime("%Y")
+from urllib.parse import quote
+from bs4 import BeautifulSoup
+from sys import platform
+from time import sleep,strftime
+from pystyle import Write,Colors
+from datetime import datetime
+from pystyle import Colors, Colorate
+from datetime import date
+from pystyle import *
 den = "\033[1;90m"
 luc = "\033[1;32m"
 trang = "\033[1;37m"
